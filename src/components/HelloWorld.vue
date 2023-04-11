@@ -1,15 +1,24 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <input type="text" v-model="path" placeholder="请输入要查询的目录">
+    <input type="button" value="获取详细信息" @click="getDetail">
   </div>
 </template>
 
 <script>
+import { mapState, mapMutations, mapActions } from 'vuex'
+
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'hello world, welcome to duweb'
+      path: "./",
+    }
+  },
+  methods: {
+    ...mapActions(['getDetails']),
+    getDetail() {
+      this.getDetails({PathName: "./"})
     }
   }
 }
