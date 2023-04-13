@@ -5006,6 +5006,18 @@ pkg-dir@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
+plotly.js-dist@^2.20.0:
+  version "2.20.0"
+  resolved "https://registry.npmmirror.com/plotly.js-dist/-/plotly.js-dist-2.20.0.tgz#44bb31c0ba6b73452748eae72654c192e67bf561"
+  integrity sha512-xhlzoC9CiCwOgXzuahWrMVhottoSokhPwmUGzWF8zGmSSdBvCOz3e3uJ5OtMirmiF2cEt+VH8X1U00OhbQ7M5Q==
+
+plotly@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/plotly/-/plotly-1.0.6.tgz#b2672c3df88333625bdf684982d0e3f6521d7aaa"
+  integrity sha512-9DoPWfLJWxqXg6omu1Oj7qkvyOce0Nv+X+2SOoI9lG9mbvA7S/qGVHypwrGMV3r53ruW1Fl1A9a7ZIPt22FrpA==
+  dependencies:
+    mkdirp "~0.5.0"
+
 portfinder@^1.0.13, portfinder@^1.0.9:
   version "1.0.32"
   resolved "https://registry.npmmirror.com/portfinder/-/portfinder-1.0.32.tgz#2fe1b9e58389712429dc2bea5beb2146146c7f81"
@@ -7204,10 +7216,8 @@ watchpack@^1.4.0:
   resolved "https://registry.npmmirror.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
